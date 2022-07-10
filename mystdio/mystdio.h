@@ -4,8 +4,8 @@
 
 #include <stdio.h>
 
-char* mygets_s(char* s, rsize_t n);	/* stdinからnバイト程読み込む */
-
+char *mygets_s(char* s, rsize_t n);	/* stdinからnバイト程読み込む */
+char *myfgets(char* str, int n, FILE* iop);
 
 #endif
 
